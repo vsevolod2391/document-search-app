@@ -1,3 +1,5 @@
+Сайт размещен по адресу: https://vsevolod2391.github.io/document-search-app/
+
 # Тестовое задание Vue developer
 
 Необходимо реализовать страницу документов с поиском и предпросмотром, используя Vue 3 (Composition API)
