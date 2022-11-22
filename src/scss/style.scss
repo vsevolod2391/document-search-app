@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+:root {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #000000;
+}
+
+h3,
+.document_page__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 14px;
+}
+
+/* анимация появления/скрытия ошибки */
+.fade-error-msg-enter-active,
+.fade-error-msg-leave-active {
+  transition: all 0.3s ease-in;
+}
+.fade-error-msg-enter-from {
+  transform: translateY(-46px);
+}
+.fade-error-msg-leave-to {
+  transform: translateY(-46px);
+}
